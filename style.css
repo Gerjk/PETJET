@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #171A1C;
+    height: 120px;
+    width: 100%;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 40px 0 80px;
+    }
+
+        .menu img {
+            width: 138px;
+            height: 75px;
+        }
+
+        .menu nav {
+            display: flex;
+            align-items: center;
+        }
+        
+            .menu nav ul {
+                display: flex;
+            }
+
+                .menu nav ul li {
+                    list-style: none;
+                    margin: 0 40px;
+                }
+
+                    .menu nav ul li a {
+                        color: #E2A784;
+                        font-weight: 700;
+                        text-decoration: none;
+                        font-size: 24px;
+                    }
+
+    .nosotros-contenedor {
+        display: flex;
+        align-items: flex-end;
+        height: 820px;
+    }
+
+    .nosotros {
+        display: flex;
+        width: 100%;
+        height: 700px;
+    }
+
+        .nosotros img {
+            width: 50%;
+        }
+    
+    .texto-nosotros {
+            background-color: #E2A784;
+            width: 50%;
+            padding: 135px 0 0 90px;
+        }
+
+        .texto-nosotros p {
+            font-size: 24px;
+            width: 537px;
+            margin: 60px 0 0 0;
+        }
+
+        .volver-principio {
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #CA5622;
+            position: relative;
+            top: 20px;
+        }
+
+    .registro {
+        display: flex;
+        height: 700px;
+    }
+
+        .registro-izq {
+            width: 50%;
+            height: 100%;
+        }
+
+            .registro-izq img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .registro-der {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: 50%;
+            height: 100%;
+            background-color: #F8F0E7;
+        }
+
+            .registro-titulo {
+                width: 513px;
+                margin: 0 0 30px 0;
+                text-align: center;
+                font-weight: 900;
+                font-size: 24px;
+            }
+
+                .texto-resaltado {
+                    color: #CA5622;
+                }
+
+            .registro-formulario {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                width: 380px;
+                height: 430px;
+                padding: 60px 0 0 0;
+                border-radius: 10px;
+                background-color: #ca572293;
+            }
+
+                .registro-campos {
+                    display: flex;
+                    align-items: center;
+                    width: 280px;
+                    height: 41px;
+                    margin: 0 0 33px 0;
+                    padding: 0 0 0 18px;
+
+                    background-color: white;
+                    color: #ca572289;
+                    border-radius: 10px;
+                }
+
+                .registro-boton {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 280px;
+                    height: 57px;
+                    margin: 66px 0 0 0;
+
+                    background-color: #CA5622;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 700;
+
+                    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.36);
+
+                    border-radius: 10px;
+                }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 770px;
+        background-color: #E2A784;
+    }
+
+        .productos-titulo {
+            width: 100%;
+            height: 50px;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 0 0 90px;
+        }
+
+        .producto {
+            width: 320px;
+            margin: 0 60px;
+        }
+
+            .producto img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .producto h2 {
+                margin: 42px 0 9px 0;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .producto p {
+                font-size: 24px;
+                text-align: center;
+            }
+
+        .volver {
+            width: 100%;
+            font-size: 18px;
+            font-weight: 900;
+            color: #CA5622;
+            padding: 0 0 0 90px;
+            text-decoration: none;
+        }
+
+    .opiniones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 570px;
+        background-color: #F8F0E7;
+    }
+
+    .opiniones-titulo {
+        width: 100%;
+        height: 50px;
+        font-size: 36px;
+        font-weight: 700;
+        padding: 20px 0 0 90px;
+    }
+
+        .opinion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 399px;
+            height: 319px;
+            padding: 0 18px;
+
+            border: 5px solid #E2A784;
+            border-radius: 10px;
+        }
+
+            .opinion img {
+                width: 150px;
+                height: 190px;
+            }
+
+            .opinion h3, p {
+                font-size: 20px;
+            }
+
+            .opinion h3 {
+                font-weight: 900;
+            }
+
+            .opinion-texto {
+                padding: 0 0 0 18px;
+            }
+
+        .opinion:nth-child(3) {
+            margin: 0 30px;
+        }
+
+        .opiniones h1 {
+            width: 100%;
+        }
+
+        .volver {
+            width: 100%;
+        }
+
+    .contacto {
+        display: flex;
+        height: 288px;
+        background-color: #171A1C;
+        padding: 0 72px;
+    }
+
+        .contacto-titulo {
+            width: 100%;
+            height: 50px;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 0 54px 0;
+            color: #E2A784;
+        }
+
+        .contacto-izq {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+        }
+
+            .contacto-izq ul {
+                list-style: none;
+            }
+
+                .contacto-izq ul img{
+                    width: 34px;
+                    height: 34px;
+                    margin: 4px 6px 0 0;
+                }
+
+                .contacto-izq ul li a{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #E2A784;
+                    font-size: 24px;
+                }
+
+        .contacto-der {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            width: 50%;
+        }
+
+            .contacto-der h3 {
+                width: 202px;
+                text-align: center;
+                color: #E2A784;
+                font-size: 24px;
+                font-weight: 400;
+                margin: 0 0 9px 0;
+            }
+
+            .volver-final {
+                width: 100%;
+                font-size: 18px;
+                font-weight: 900;
+                color: #CA5622;
+                padding: 15px 0 0 0;
+                text-decoration: none;
+            }
+    
